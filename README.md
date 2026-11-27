@@ -19,5 +19,14 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 
 - [M809C.kicad_sym](KICAD/M809C.kicad_sym)
 
+## 3-D model
+
+[`MECHANICAL/M809C.stl`](MECHANICAL/M809C.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M809C)
+
+- **Size:** 41 × 178 mm panel, 165 mm deep, 3.2 mm plate (assumed: 1.6" x 7" x 6.5", the common module)
+- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M809C - front panel.svg`)
+- no drawing of the front panel: the panel is blank
+- Made by `tools/module_models.py` (→ `MECHANICAL/M809C.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
+
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
